@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Pokemon Solid';
+    src: url("../pokmon/PokemonSolid.ttf") format("truetype");
+}
+
+.jumbotron {
+  box-sizing: border-box;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.main-button-container {
+  margin-top: 175px;
+  max-width: 610px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#pokemon img {
+  width:20%;
+}
+
+#pokemon{
+  font-size: 80px;
+  color: yellow;
+  text-shadow: 3px 4px 2px steelblue;
+  font-family: 'Pokemon Solid', sans-serif;
+}
+
+.answer:hover {
+  background: steelblue;
+}
+
+.answer {
+  padding-top: 7px;
+  height: 45px;
+  color: black;
+  padding-left: 14px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.img-wrong, .first-answer, .reset-button, .summary-correct, .timer-p{
+  margin-top: 40px;
+}
+
+.mainArea {
+  background-color: black;
+  border-radius: 20px;
+  margin-top:40px;
+}
+.imgResize {
+  width:350px;
+  height:300px;
+  margin-bottom: 40px;
+}
+
+body {
+  background-color:red;
+  color: white;
+}
+
